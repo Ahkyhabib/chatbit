@@ -92,3 +92,7 @@ export default function Char1(props) {
     </svg>
   );
 }
+
+export default Char1 
+
+
