@@ -1,90 +1,277 @@
-import React from 'react';
+import React from "react";
 
-export default function Char2(props) {
+function Char2(props) {
   return (
-    <svg className="card" version="1.1" id="el_f-_Log2rsRk" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="200px" height="220px" viewBox="0 0 59 93" enableBackground="new 0 0 59.639 93.694" xmlSpace="preserve" {...props}>
-      <style dangerouslySetInnerHTML={{__html: "\n                                @-webkit-keyframes el_tXHPk9DPVFw_pwi_Ic8je_Animation {\n                                    0% {\n                                        -webkit-transform: scale(0.5, 0.5);\n                                        transform: scale(0.5, 0.5);\n                                    }\n\n                                    4.44% {\n                                        -webkit-transform: scale(1, 1);\n                                        transform: scale(1, 1);\n                                    }\n\n                                    8.89% {\n                                        -webkit-transform: scale(0.5, 0.5);\n                                        transform: scale(0.5, 0.5);\n                                    }\n\n                                    13.33% {\n                                        -webkit-transform: scale(1, 1);\n                                        transform: scale(1, 1);\n                                    }\n\n                                    100% {\n                                        -webkit-transform: scale(1, 1);\n                                        transform: scale(1, 1);\n                                    }\n                                }\n\n                                @keyframes el_tXHPk9DPVFw_pwi_Ic8je_Animation {\n                                    0% {\n                                        -webkit-transform: scale(0.5, 0.5);\n                                        transform: scale(0.5, 0.5);\n                                    }\n\n                                    4.44% {\n                                        -webkit-transform: scale(1, 1);\n                                        transform: scale(1, 1);\n                                    }\n\n                                    8.89% {\n                                        -webkit-transform: scale(0.5, 0.5);\n                                        transform: scale(0.5, 0.5);\n                                    }\n\n                                    13.33% {\n                                        -webkit-transform: scale(1, 1);\n                                        transform: scale(1, 1);\n                                    }\n\n                                    100% {\n                                        -webkit-transform: scale(1, 1);\n                                        transform: scale(1, 1);\n                                    }\n                                }\n\n                                @-webkit-keyframes el_B-D5K2F54XL_AezCq6m2Z_Animation {\n                                    0% {\n                                        -webkit-transform: scale(1, 1);\n                                        transform: scale(1, 1);\n                                    }\n\n                                    6.67% {\n                                        -webkit-transform: scale(0, 0);\n                                        transform: scale(0, 0);\n                                    }\n\n                                    13.33% {\n                                        -webkit-transform: scale(1, 1);\n                                        transform: scale(1, 1);\n                                    }\n\n                                    100% {\n                                        -webkit-transform: scale(1, 1);\n                                        transform: scale(1, 1);\n                                    }\n                                }\n\n                                @keyframes el_B-D5K2F54XL_AezCq6m2Z_Animation {\n                                    0% {\n                                        -webkit-transform: scale(1, 1);\n                                        transform: scale(1, 1);\n                                    }\n\n                                    6.67% {\n                                        -webkit-transform: scale(0, 0);\n                                        transform: scale(0, 0);\n                                    }\n\n                                    13.33% {\n                                        -webkit-transform: scale(1, 1);\n                                        transform: scale(1, 1);\n                                    }\n\n                                    100% {\n                                        -webkit-transform: scale(1, 1);\n                                        transform: scale(1, 1);\n                                    }\n                                }\n\n                                @-webkit-keyframes el_PIxdt7Rww66_6HDnItjBj_Animation {\n                                    0% {\n                                        -webkit-transform: scale(1, 1);\n                                        transform: scale(1, 1);\n                                    }\n\n                                    6.67% {\n                                        -webkit-transform: scale(0, 0);\n                                        transform: scale(0, 0);\n                                    }\n\n                                    13.33% {\n                                        -webkit-transform: scale(1, 1);\n                                        transform: scale(1, 1);\n                                    }\n\n                                    100% {\n                                        -webkit-transform: scale(1, 1);\n                                        transform: scale(1, 1);\n                                    }\n                                }\n\n                                @keyframes el_PIxdt7Rww66_6HDnItjBj_Animation {\n                                    0% {\n                                        -webkit-transform: scale(1, 1);\n                                        transform: scale(1, 1);\n                                    }\n\n                                    6.67% {\n                                        -webkit-transform: scale(0, 0);\n                                        transform: scale(0, 0);\n                                    }\n\n                                    13.33% {\n                                        -webkit-transform: scale(1, 1);\n                                        transform: scale(1, 1);\n                                    }\n\n                                    100% {\n                                        -webkit-transform: scale(1, 1);\n                                        transform: scale(1, 1);\n                                    }\n                                }\n\n                                #el_f-_Log2rsRk * {\n                                    -webkit-animation-duration: 3s;\n                                    animation-duration: 3s;\n                                    -webkit-animation-play-state: running;\n                                    animation-play-state: running;\n                                    -webkit-animation-timing-function: cubic-bezier(0, 0, 1, 1);\n                                    animation-timing-function: cubic-bezier(0, 0, 1, 1);\n                                }\n\n                                #el_9ZVDgsW7jFL {\n                                    fill: #BBE1F2;\n                                }\n\n                                #el_S5soKPG05PA {\n                                    fill: #3F464A;\n                                }\n\n                                #el_H2U5_ST3OtS {\n                                    fill: #D99762;\n                                }\n\n                                #el_Q1EXw97Pspd {\n                                    fill: #F04989;\n                                }\n\n                                #el_ujR7ng6slCT {\n                                    fill: #D99762;\n                                }\n\n                                #el_eXaAe4eoG5a {\n                                    fill: #D99762;\n                                }\n\n                                #el_b4befdXtLEW {\n                                    fill: #B87946;\n                                }\n\n                                #el_1nLT3tWh2_G {\n                                    fill: #B87946;\n                                }\n\n                                #el_tXHPk9DPVFw {\n                                    fill: #FFFFFF;\n                                }\n\n                                #el_PIxdt7Rww66 {\n                                    fill: #383737;\n                                }\n\n                                #el_B-D5K2F54XL {\n                                    fill: #383737;\n                                }\n\n                                #el_yVUr4RKa6jP {\n                                    fill: none;\n                                    stroke: #3F464A;\n                                    stroke-width: 1.9199;\n                                }\n\n                                #el_OJelvcBXaEB {\n                                    fill: none;\n                                    stroke: #3F464A;\n                                    stroke-width: 1.9199;\n                                }\n\n                                #el_jlLOmNOVQvJ {\n                                    opacity: 0.2;\n                                    fill: #F04989;\n                                }\n\n                                #el_q2eUsCrIfWA {\n                                    opacity: 0.2;\n                                    fill: #F04989;\n                                }\n\n                                #el_UtaOMqBKPUa {\n                                    fill: #3F464A;\n                                }\n\n                                #el_ZA_RKRQS-jG {\n                                    fill: #FFFFFF;\n                                }\n\n                                #el_q0Qx1dyBvTj {\n                                    fill: #FFFFFF;\n                                }\n\n                                #el_NyFUeJl0a0J {\n                                    opacity: 0.5;\n                                    fill: #FFFFFF;\n                                }\n\n                                #el_v7lRCPEodR6 {\n                                    fill: #3F85AB;\n                                }\n\n                                #el_RhGN8S0bIof {\n                                    fill: #3F85AB;\n                                }\n\n                                #el_4ksaR4VG7h6 {\n                                    fill: #3F85AB;\n                                }\n\n                                #el_tRkl0wtdass {\n                                    fill: #29698C;\n                                }\n\n                                #el_yXZgwa4DPce {\n                                    fill: #29698C;\n                                }\n\n                                #el_cAb4sjpOm46 {\n                                    fill: #3F85AB;\n                                }\n\n                                #el_TH2jvmQte6s {\n                                    fill: #29698C;\n                                }\n\n                                #el_X9Q0Vuszv_O {\n                                    fill: #3F85AB;\n                                }\n\n                                #el_PIxdt7Rww66_6HDnItjBj {\n                                    -webkit-transform-origin: 50% 50%;\n                                    transform-origin: 50% 50%;\n                                    transform-box: fill-box;\n                                    -webkit-transform: scale(1, 1);\n                                    transform: scale(1, 1);\n                                }\n\n                                #el_f-_Log2rsRk:hover #el_PIxdt7Rww66_6HDnItjBj {\n                                    -webkit-animation-name: el_PIxdt7Rww66_6HDnItjBj_Animation;\n                                    animation-name: el_PIxdt7Rww66_6HDnItjBj_Animation;\n                                }\n\n                                #el_B-D5K2F54XL_AezCq6m2Z {\n                                    -webkit-transform-origin: 50% 50%;\n                                    transform-origin: 50% 50%;\n                                    transform-box: fill-box;\n                                    -webkit-transform: scale(1, 1);\n                                    transform: scale(1, 1);\n                                }\n\n                                #el_f-_Log2rsRk:hover #el_B-D5K2F54XL_AezCq6m2Z {\n                                    -webkit-animation-name: el_B-D5K2F54XL_AezCq6m2Z_Animation;\n                                    animation-name: el_B-D5K2F54XL_AezCq6m2Z_Animation;\n                                }\n\n                                #el_tXHPk9DPVFw_pwi_Ic8je {\n                                    -webkit-transform-origin: 50% 50%;\n                                    transform-origin: 50% 50%;\n                                    transform-box: fill-box;\n                                    -webkit-transform: scale(1, 1);\n                                    transform: scale(1, 1);\n                                }\n\n                                #el_f-_Log2rsRk:hover #el_tXHPk9DPVFw_pwi_Ic8je {\n                                    -webkit-animation-name: el_tXHPk9DPVFw_pwi_Ic8je_Animation;\n                                    animation-name: el_tXHPk9DPVFw_pwi_Ic8je_Animation;\n                                }\n                            " }} />
-      <ellipse fillRule="evenodd" clipRule="evenodd" cx="29.708" cy="47.073" rx="28.85" ry="46.154" id="el_9ZVDgsW7jFL" />
+    <svg
+      className="card"
+      version="1.1"
+      id="el_f-_Log2rsRk"
+      xmlns="http://www.w3.org/2000/svg"
+      xmlnsXlink="http://www.w3.org/1999/xlink"
+      x="0px"
+      y="0px"
+      width="200px"
+      height="220px"
+      viewBox="0 0 59 93"
+      enableBackground="new 0 0 59.639 93.694"
+      xmlSpace="preserve"
+      {...props}
+    >
+      <style
+        dangerouslySetInnerHTML={{
+          __html:
+            "\n                                @-webkit-keyframes el_tXHPk9DPVFw_pwi_Ic8je_Animation {\n                                    0% {\n                                        -webkit-transform: scale(0.5, 0.5);\n                                        transform: scale(0.5, 0.5);\n                                    }\n\n                                    4.44% {\n                                        -webkit-transform: scale(1, 1);\n                                        transform: scale(1, 1);\n                                    }\n\n                                    8.89% {\n                                        -webkit-transform: scale(0.5, 0.5);\n                                        transform: scale(0.5, 0.5);\n                                    }\n\n                                    13.33% {\n                                        -webkit-transform: scale(1, 1);\n                                        transform: scale(1, 1);\n                                    }\n\n                                    100% {\n                                        -webkit-transform: scale(1, 1);\n                                        transform: scale(1, 1);\n                                    }\n                                }\n\n                                @keyframes el_tXHPk9DPVFw_pwi_Ic8je_Animation {\n                                    0% {\n                                        -webkit-transform: scale(0.5, 0.5);\n                                        transform: scale(0.5, 0.5);\n                                    }\n\n                                    4.44% {\n                                        -webkit-transform: scale(1, 1);\n                                        transform: scale(1, 1);\n                                    }\n\n                                    8.89% {\n                                        -webkit-transform: scale(0.5, 0.5);\n                                        transform: scale(0.5, 0.5);\n                                    }\n\n                                    13.33% {\n                                        -webkit-transform: scale(1, 1);\n                                        transform: scale(1, 1);\n                                    }\n\n                                    100% {\n                                        -webkit-transform: scale(1, 1);\n                                        transform: scale(1, 1);\n                                    }\n                                }\n\n                                @-webkit-keyframes el_B-D5K2F54XL_AezCq6m2Z_Animation {\n                                    0% {\n                                        -webkit-transform: scale(1, 1);\n                                        transform: scale(1, 1);\n                                    }\n\n                                    6.67% {\n                                        -webkit-transform: scale(0, 0);\n                                        transform: scale(0, 0);\n                                    }\n\n                                    13.33% {\n                                        -webkit-transform: scale(1, 1);\n                                        transform: scale(1, 1);\n                                    }\n\n                                    100% {\n                                        -webkit-transform: scale(1, 1);\n                                        transform: scale(1, 1);\n                                    }\n                                }\n\n                                @keyframes el_B-D5K2F54XL_AezCq6m2Z_Animation {\n                                    0% {\n                                        -webkit-transform: scale(1, 1);\n                                        transform: scale(1, 1);\n                                    }\n\n                                    6.67% {\n                                        -webkit-transform: scale(0, 0);\n                                        transform: scale(0, 0);\n                                    }\n\n                                    13.33% {\n                                        -webkit-transform: scale(1, 1);\n                                        transform: scale(1, 1);\n                                    }\n\n                                    100% {\n                                        -webkit-transform: scale(1, 1);\n                                        transform: scale(1, 1);\n                                    }\n                                }\n\n                                @-webkit-keyframes el_PIxdt7Rww66_6HDnItjBj_Animation {\n                                    0% {\n                                        -webkit-transform: scale(1, 1);\n                                        transform: scale(1, 1);\n                                    }\n\n                                    6.67% {\n                                        -webkit-transform: scale(0, 0);\n                                        transform: scale(0, 0);\n                                    }\n\n                                    13.33% {\n                                        -webkit-transform: scale(1, 1);\n                                        transform: scale(1, 1);\n                                    }\n\n                                    100% {\n                                        -webkit-transform: scale(1, 1);\n                                        transform: scale(1, 1);\n                                    }\n                                }\n\n                                @keyframes el_PIxdt7Rww66_6HDnItjBj_Animation {\n                                    0% {\n                                        -webkit-transform: scale(1, 1);\n                                        transform: scale(1, 1);\n                                    }\n\n                                    6.67% {\n                                        -webkit-transform: scale(0, 0);\n                                        transform: scale(0, 0);\n                                    }\n\n                                    13.33% {\n                                        -webkit-transform: scale(1, 1);\n                                        transform: scale(1, 1);\n                                    }\n\n                                    100% {\n                                        -webkit-transform: scale(1, 1);\n                                        transform: scale(1, 1);\n                                    }\n                                }\n\n                                #el_f-_Log2rsRk * {\n                                    -webkit-animation-duration: 3s;\n                                    animation-duration: 3s;\n                                    -webkit-animation-play-state: running;\n                                    animation-play-state: running;\n                                    -webkit-animation-timing-function: cubic-bezier(0, 0, 1, 1);\n                                    animation-timing-function: cubic-bezier(0, 0, 1, 1);\n                                }\n\n                                #el_9ZVDgsW7jFL {\n                                    fill: #BBE1F2;\n                                }\n\n                                #el_S5soKPG05PA {\n                                    fill: #3F464A;\n                                }\n\n                                #el_H2U5_ST3OtS {\n                                    fill: #D99762;\n                                }\n\n                                #el_Q1EXw97Pspd {\n                                    fill: #F04989;\n                                }\n\n                                #el_ujR7ng6slCT {\n                                    fill: #D99762;\n                                }\n\n                                #el_eXaAe4eoG5a {\n                                    fill: #D99762;\n                                }\n\n                                #el_b4befdXtLEW {\n                                    fill: #B87946;\n                                }\n\n                                #el_1nLT3tWh2_G {\n                                    fill: #B87946;\n                                }\n\n                                #el_tXHPk9DPVFw {\n                                    fill: #FFFFFF;\n                                }\n\n                                #el_PIxdt7Rww66 {\n                                    fill: #383737;\n                                }\n\n                                #el_B-D5K2F54XL {\n                                    fill: #383737;\n                                }\n\n                                #el_yVUr4RKa6jP {\n                                    fill: none;\n                                    stroke: #3F464A;\n                                    stroke-width: 1.9199;\n                                }\n\n                                #el_OJelvcBXaEB {\n                                    fill: none;\n                                    stroke: #3F464A;\n                                    stroke-width: 1.9199;\n                                }\n\n                                #el_jlLOmNOVQvJ {\n                                    opacity: 0.2;\n                                    fill: #F04989;\n                                }\n\n                                #el_q2eUsCrIfWA {\n                                    opacity: 0.2;\n                                    fill: #F04989;\n                                }\n\n                                #el_UtaOMqBKPUa {\n                                    fill: #3F464A;\n                                }\n\n                                #el_ZA_RKRQS-jG {\n                                    fill: #FFFFFF;\n                                }\n\n                                #el_q0Qx1dyBvTj {\n                                    fill: #FFFFFF;\n                                }\n\n                                #el_NyFUeJl0a0J {\n                                    opacity: 0.5;\n                                    fill: #FFFFFF;\n                                }\n\n                                #el_v7lRCPEodR6 {\n                                    fill: #3F85AB;\n                                }\n\n                                #el_RhGN8S0bIof {\n                                    fill: #3F85AB;\n                                }\n\n                                #el_4ksaR4VG7h6 {\n                                    fill: #3F85AB;\n                                }\n\n                                #el_tRkl0wtdass {\n                                    fill: #29698C;\n                                }\n\n                                #el_yXZgwa4DPce {\n                                    fill: #29698C;\n                                }\n\n                                #el_cAb4sjpOm46 {\n                                    fill: #3F85AB;\n                                }\n\n                                #el_TH2jvmQte6s {\n                                    fill: #29698C;\n                                }\n\n                                #el_X9Q0Vuszv_O {\n                                    fill: #3F85AB;\n                                }\n\n                                #el_PIxdt7Rww66_6HDnItjBj {\n                                    -webkit-transform-origin: 50% 50%;\n                                    transform-origin: 50% 50%;\n                                    transform-box: fill-box;\n                                    -webkit-transform: scale(1, 1);\n                                    transform: scale(1, 1);\n                                }\n\n                                #el_f-_Log2rsRk:hover #el_PIxdt7Rww66_6HDnItjBj {\n                                    -webkit-animation-name: el_PIxdt7Rww66_6HDnItjBj_Animation;\n                                    animation-name: el_PIxdt7Rww66_6HDnItjBj_Animation;\n                                }\n\n                                #el_B-D5K2F54XL_AezCq6m2Z {\n                                    -webkit-transform-origin: 50% 50%;\n                                    transform-origin: 50% 50%;\n                                    transform-box: fill-box;\n                                    -webkit-transform: scale(1, 1);\n                                    transform: scale(1, 1);\n                                }\n\n                                #el_f-_Log2rsRk:hover #el_B-D5K2F54XL_AezCq6m2Z {\n                                    -webkit-animation-name: el_B-D5K2F54XL_AezCq6m2Z_Animation;\n                                    animation-name: el_B-D5K2F54XL_AezCq6m2Z_Animation;\n                                }\n\n                                #el_tXHPk9DPVFw_pwi_Ic8je {\n                                    -webkit-transform-origin: 50% 50%;\n                                    transform-origin: 50% 50%;\n                                    transform-box: fill-box;\n                                    -webkit-transform: scale(1, 1);\n                                    transform: scale(1, 1);\n                                }\n\n                                #el_f-_Log2rsRk:hover #el_tXHPk9DPVFw_pwi_Ic8je {\n                                    -webkit-animation-name: el_tXHPk9DPVFw_pwi_Ic8je_Animation;\n                                    animation-name: el_tXHPk9DPVFw_pwi_Ic8je_Animation;\n                                }\n                            "
+        }}
+      />
+      <ellipse
+        fillRule="evenodd"
+        clipRule="evenodd"
+        cx="29.708"
+        cy="47.073"
+        rx="28.85"
+        ry="46.154"
+        id="el_9ZVDgsW7jFL"
+      />
       <g id="el_00ZEPVZb1wS">
-        <path id="el_S5soKPG05PA" fillRule="evenodd" clipRule="evenodd" d="M7.072,48.543
+        <path
+          id="el_S5soKPG05PA"
+          fillRule="evenodd"
+          clipRule="evenodd"
+          d="M7.072,48.543
         		c-3.137,10.31,0.453,15.232,4.559,20.646c0.434,0.571,2.065,4.98-2.097,6.843c0.551,5.387,12.085,12.768,27.332,7.496
-        		c15.881-5.49,19.807-24.899,12.746-35.417C43.087,38.395,21.101,38.856,7.072,48.543z" />
-        <path id="el_H2U5_ST3OtS" fillRule="evenodd" clipRule="evenodd" d="M29.656,77.571c6.748,0,12.447,3.645,14.27,8.639
-        		H15.387C17.21,81.215,22.908,77.571,29.656,77.571z" />
-        <path id="el_Q1EXw97Pspd" fillRule="evenodd" clipRule="evenodd" d="M26.345,77.872l-5.527,8.338h8.838h8.84l-5.527-8.338
-        		c-1.065-0.196-2.174-0.301-3.313-0.301S27.41,77.675,26.345,77.872z" />
-        <path id="el_ujR7ng6slCT" fillRule="evenodd" clipRule="evenodd" d="M29.656,64.72L29.656,64.72
+        		c15.881-5.49,19.807-24.899,12.746-35.417C43.087,38.395,21.101,38.856,7.072,48.543z"
+        />
+        <path
+          id="el_H2U5_ST3OtS"
+          fillRule="evenodd"
+          clipRule="evenodd"
+          d="M29.656,77.571c6.748,0,12.447,3.645,14.27,8.639
+        		H15.387C17.21,81.215,22.908,77.571,29.656,77.571z"
+        />
+        <path
+          id="el_Q1EXw97Pspd"
+          fillRule="evenodd"
+          clipRule="evenodd"
+          d="M26.345,77.872l-5.527,8.338h8.838h8.84l-5.527-8.338
+        		c-1.065-0.196-2.174-0.301-3.313-0.301S27.41,77.675,26.345,77.872z"
+        />
+        <path
+          id="el_ujR7ng6slCT"
+          fillRule="evenodd"
+          clipRule="evenodd"
+          d="M29.656,64.72L29.656,64.72
         		c1.822,0,3.312,1.459,3.312,3.241v9.743c0,1.782-1.489,3.24-3.312,3.24l0,0c-1.82,0-3.311-1.458-3.311-3.24v-9.743
-        		C26.345,66.179,27.835,64.72,29.656,64.72z" />
-        <path id="el_eXaAe4eoG5a" fillRule="evenodd" clipRule="evenodd" d="M29.656,34.124
-        		c12.406-0.611,17.723,9.342,17.723,20.866s-9.27,20.866-17.723,20.866S11.935,66.513,11.935,54.99S17.25,34.736,29.656,34.124z" />
-        <path id="el_b4befdXtLEW" fillRule="evenodd" clipRule="evenodd" d="M28.243,63.686c3.252,0.524,4.575-1.55,3.832-3.337
-        		C33.619,63.095,32.175,65.031,28.243,63.686z" />
-        <path id="el_1nLT3tWh2_G" fillRule="evenodd" clipRule="evenodd" d="M21.134,65.525c1.811,0.238,5.075-0.266,7.338,0.09
+        		C26.345,66.179,27.835,64.72,29.656,64.72z"
+        />
+        <path
+          id="el_eXaAe4eoG5a"
+          fillRule="evenodd"
+          clipRule="evenodd"
+          d="M29.656,34.124
+        		c12.406-0.611,17.723,9.342,17.723,20.866s-9.27,20.866-17.723,20.866S11.935,66.513,11.935,54.99S17.25,34.736,29.656,34.124z"
+        />
+        <path
+          id="el_b4befdXtLEW"
+          fillRule="evenodd"
+          clipRule="evenodd"
+          d="M28.243,63.686c3.252,0.524,4.575-1.55,3.832-3.337
+        		C33.619,63.095,32.175,65.031,28.243,63.686z"
+        />
+        <path
+          id="el_1nLT3tWh2_G"
+          fillRule="evenodd"
+          clipRule="evenodd"
+          d="M21.134,65.525c1.811,0.238,5.075-0.266,7.338,0.09
         		c0.54,0.084,1.212,0.318,1.764,0.32c0.525,0.004,1.145-0.174,1.656-0.251c2.047-0.306,5.266,0.005,6.842-0.228
-        		C36.674,72.183,23.899,72.81,21.134,65.525z" />
-        <g id="el_tXHPk9DPVFw_pwi_Ic8je" data-animator-group="true" data-animator-type={2}>
-          <path id="el_tXHPk9DPVFw" fillRule="evenodd" clipRule="evenodd" d="M22.326,66.187c2.13-0.1,5.217,0.443,7.837,0.453
-          		c2.522,0.009,5.79-0.65,7.614-0.504C35.314,70.086,25.563,70.451,22.326,66.187z" />
+        		C36.674,72.183,23.899,72.81,21.134,65.525z"
+        />
+        <g
+          id="el_tXHPk9DPVFw_pwi_Ic8je"
+          data-animator-group="true"
+          data-animator-type={2}
+        >
+          <path
+            id="el_tXHPk9DPVFw"
+            fillRule="evenodd"
+            clipRule="evenodd"
+            d="M22.326,66.187c2.13-0.1,5.217,0.443,7.837,0.453
+          		c2.522,0.009,5.79-0.65,7.614-0.504C35.314,70.086,25.563,70.451,22.326,66.187z"
+          />
         </g>
         <g id="el_PlKgMzLB0e1">
-                .shrink:hover
-                {'{'}
-                -webkit-transform: scale(0.8);
-                -ms-transform: scale(0.8);
-                transform: scale(0.8);
-                {'}'}
-                <g id="el_PIxdt7Rww66_6HDnItjBj" data-animator-group="true" data-animator-type={2}>
-            <ellipse id="el_PIxdt7Rww66" fillRule="evenodd" clipRule="evenodd" cx="36.066" cy="55.182" rx="1.14" ry="1.867" />
+          .shrink:hover
+          {"{"}
+          -webkit-transform: scale(0.8); -ms-transform: scale(0.8); transform:
+          scale(0.8);
+          {"}"}
+          <g
+            id="el_PIxdt7Rww66_6HDnItjBj"
+            data-animator-group="true"
+            data-animator-type={2}
+          >
+            <ellipse
+              id="el_PIxdt7Rww66"
+              fillRule="evenodd"
+              clipRule="evenodd"
+              cx="36.066"
+              cy="55.182"
+              rx="1.14"
+              ry="1.867"
+            />
           </g>
-          <g id="el_B-D5K2F54XL_AezCq6m2Z" data-animator-group="true" data-animator-type={2}>
-            <ellipse id="el_B-D5K2F54XL" fillRule="evenodd" clipRule="evenodd" cx="23.248" cy="55.182" rx="1.14" ry="1.867" />
+          <g
+            id="el_B-D5K2F54XL_AezCq6m2Z"
+            data-animator-group="true"
+            data-animator-type={2}
+          >
+            <ellipse
+              id="el_B-D5K2F54XL"
+              fillRule="evenodd"
+              clipRule="evenodd"
+              cx="23.248"
+              cy="55.182"
+              rx="1.14"
+              ry="1.867"
+            />
           </g>
         </g>
         <g id="el_9835X7-Oyse">
-          <path display="none" fillRule="evenodd" clipRule="evenodd" strokeLinecap="round" strokeLinejoin="round" strokeMiterlimit="22.9256" d="
-          			M20.833,50.455c1.476-0.188,3.441-0.285,5.161-0.055" id="el_yVUr4RKa6jP" />
-          <path id="el_OJelvcBXaEB" fillRule="evenodd" clipRule="evenodd" strokeLinecap="round" strokeLinejoin="round" strokeMiterlimit="22.9256" d="
-          			M38.481,50.455c-1.478-0.188-3.442-0.285-5.161-0.055" />
+          <path
+            display="none"
+            fillRule="evenodd"
+            clipRule="evenodd"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeMiterlimit="22.9256"
+            d="
+          			M20.833,50.455c1.476-0.188,3.441-0.285,5.161-0.055"
+            id="el_yVUr4RKa6jP"
+          />
+          <path
+            id="el_OJelvcBXaEB"
+            fillRule="evenodd"
+            clipRule="evenodd"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeMiterlimit="22.9256"
+            d="
+          			M38.481,50.455c-1.478-0.188-3.442-0.285-5.161-0.055"
+          />
         </g>
         <g id="el_WAwWxdwLkam">
-          <ellipse id="el_jlLOmNOVQvJ" fillRule="evenodd" clipRule="evenodd" cx="37.527" cy={60} rx="1.997" ry="1.343" />
-          <ellipse id="el_q2eUsCrIfWA" fillRule="evenodd" clipRule="evenodd" cx="21.786" cy={60} rx="1.997" ry="1.343" />
+          <ellipse
+            id="el_jlLOmNOVQvJ"
+            fillRule="evenodd"
+            clipRule="evenodd"
+            cx="37.527"
+            cy={60}
+            rx="1.997"
+            ry="1.343"
+          />
+          <ellipse
+            id="el_q2eUsCrIfWA"
+            fillRule="evenodd"
+            clipRule="evenodd"
+            cx="21.786"
+            cy={60}
+            rx="1.997"
+            ry="1.343"
+          />
         </g>
-        <path id="el_UtaOMqBKPUa" fillRule="evenodd" clipRule="evenodd" d="M38.886,40.933c-6.23-1.973-9.249,14.353-21.239,15.514
+        <path
+          id="el_UtaOMqBKPUa"
+          fillRule="evenodd"
+          clipRule="evenodd"
+          d="M38.886,40.933c-6.23-1.973-9.249,14.353-21.239,15.514
         		c-11.99,1.162-18.763-15.212-7.149-25.94c11.613-10.729,28.261-0.046,30.311,5.968c2.867-3.208,7.881-1.413,10.184,3.438
-        		c2.373,5.005,0.775,15.91-3.24,15.971C41.144,55.982,46.619,43.381,38.886,40.933z" />
-        <path id="el_ZA_RKRQS-jG" fillRule="evenodd" clipRule="evenodd" d="M48.689,63.115c0.658,0,1.195-0.526,1.195-1.17
-        		c0-0.646-0.537-1.171-1.195-1.171s-1.195,0.525-1.195,1.171C47.494,62.588,48.031,63.115,48.689,63.115z" />
-        <path id="el_q0Qx1dyBvTj" fillRule="evenodd" clipRule="evenodd" d="M10.625,63.115c0.658,0,1.195-0.526,1.195-1.17
-        		c0-0.646-0.537-1.171-1.195-1.171c-0.659,0-1.195,0.525-1.195,1.171C9.43,62.588,9.966,63.115,10.625,63.115z" />
-        <path id="el_NyFUeJl0a0J" fillRule="evenodd" clipRule="evenodd" d="M36.263,36.617
-        		c-9.252,1.431-13.02,22.451-26.023,13.945C19.235,52.902,28.91,33.188,36.263,36.617z" />
+        		c2.373,5.005,0.775,15.91-3.24,15.971C41.144,55.982,46.619,43.381,38.886,40.933z"
+        />
+        <path
+          id="el_ZA_RKRQS-jG"
+          fillRule="evenodd"
+          clipRule="evenodd"
+          d="M48.689,63.115c0.658,0,1.195-0.526,1.195-1.17
+        		c0-0.646-0.537-1.171-1.195-1.171s-1.195,0.525-1.195,1.171C47.494,62.588,48.031,63.115,48.689,63.115z"
+        />
+        <path
+          id="el_q0Qx1dyBvTj"
+          fillRule="evenodd"
+          clipRule="evenodd"
+          d="M10.625,63.115c0.658,0,1.195-0.526,1.195-1.17
+        		c0-0.646-0.537-1.171-1.195-1.171c-0.659,0-1.195,0.525-1.195,1.171C9.43,62.588,9.966,63.115,10.625,63.115z"
+        />
+        <path
+          id="el_NyFUeJl0a0J"
+          fillRule="evenodd"
+          clipRule="evenodd"
+          d="M36.263,36.617
+        		c-9.252,1.431-13.02,22.451-26.023,13.945C19.235,52.902,28.91,33.188,36.263,36.617z"
+        />
         <g id="el_C3mpUsETNLf">
-          <path id="el_v7lRCPEodR6" fillRule="evenodd" clipRule="evenodd" d="M11.005,51.401
+          <path
+            id="el_v7lRCPEodR6"
+            fillRule="evenodd"
+            clipRule="evenodd"
+            d="M11.005,51.401
           			c-0.305-2.864-0.415-7.511,1.946-11.483c2.377-4,7.201-7.271,16.708-7.271v1.515c-8.804,0-13.209,2.924-15.335,6.502
-          			c-2.143,3.604-2.032,7.92-1.748,10.59L11.005,51.401z" />
-          <path id="el_RhGN8S0bIof" fillRule="evenodd" clipRule="evenodd" d="M46.742,51.253c0.283-2.67,0.395-6.985-1.748-10.59
+          			c-2.143,3.604-2.032,7.92-1.748,10.59L11.005,51.401z"
+          />
+          <path
+            id="el_RhGN8S0bIof"
+            fillRule="evenodd"
+            clipRule="evenodd"
+            d="M46.742,51.253c0.283-2.67,0.395-6.985-1.748-10.59
           			c-2.125-3.578-6.531-6.502-15.334-6.502v-1.515c9.507,0,14.33,3.271,16.707,7.271c2.361,3.973,2.252,8.619,1.947,11.483
-          			L46.742,51.253z" />
-          <path id="el_4ksaR4VG7h6" fillRule="evenodd" clipRule="evenodd" d="M47.298,59.427c-0.215,1.506-0.703,4.817-3.15,7.793
+          			L46.742,51.253z"
+          />
+          <path
+            id="el_4ksaR4VG7h6"
+            fillRule="evenodd"
+            clipRule="evenodd"
+            d="M47.298,59.427c-0.215,1.506-0.703,4.817-3.15,7.793
           			c-2.443,2.971-6.807,5.57-14.721,5.611l-0.006-1.509c7.314-0.038,11.291-2.372,13.482-5.037c2.188-2.659,2.633-5.685,2.83-7.06
-          			L47.298,59.427z" />
-          <path id="el_tRkl0wtdass" fillRule="evenodd" clipRule="evenodd" d="M28.555,70.242h3.169
+          			L47.298,59.427z"
+          />
+          <path
+            id="el_tRkl0wtdass"
+            fillRule="evenodd"
+            clipRule="evenodd"
+            d="M28.555,70.242h3.169
           			c0.865,0,1.574,0.693,1.574,1.54l0,0c0,0.849-0.709,1.542-1.574,1.542h-3.169c-0.866,0-1.575-0.693-1.575-1.542l0,0
-          			C26.98,70.935,27.689,70.242,28.555,70.242z" />
+          			C26.98,70.935,27.689,70.242,28.555,70.242z"
+          />
           <g id="el_XKKrelrfdt4">
             <g id="el_xu-xsef4XDJ">
-              <polygon fillRule="evenodd" clipRule="evenodd" points="12.549,50.671 10.88,50.867 12.245,61.509
-              					13.915,61.314 				" id="el_yXZgwa4DPce" />
-              <path fillRule="evenodd" clipRule="evenodd" d="M12.245,61.509c-2.865,0.336-5.494-1.773-5.87-4.713
-              					c-0.377-2.938,1.64-5.594,4.505-5.93L12.245,61.509z" id="el_cAb4sjpOm46" />
+              <polygon
+                fillRule="evenodd"
+                clipRule="evenodd"
+                points="12.549,50.671 10.88,50.867 12.245,61.509
+              					13.915,61.314 				"
+                id="el_yXZgwa4DPce"
+              />
+              <path
+                fillRule="evenodd"
+                clipRule="evenodd"
+                d="M12.245,61.509c-2.865,0.336-5.494-1.773-5.87-4.713
+              					c-0.377-2.938,1.64-5.594,4.505-5.93L12.245,61.509z"
+                id="el_cAb4sjpOm46"
+              />
             </g>
             <g id="el_TDnKKzb4H7J">
-              <polygon fillRule="evenodd" clipRule="evenodd" points="46.763,50.671 48.433,50.867 47.068,61.509
-              					45.4,61.314 				" id="el_TH2jvmQte6s" />
-              <path fillRule="evenodd" clipRule="evenodd" d="M47.068,61.509c2.865,0.336,5.494-1.773,5.871-4.713
-              					c0.377-2.938-1.641-5.594-4.506-5.93L47.068,61.509z" id="el_X9Q0Vuszv_O" />
+              <polygon
+                fillRule="evenodd"
+                clipRule="evenodd"
+                points="46.763,50.671 48.433,50.867 47.068,61.509
+              					45.4,61.314 				"
+                id="el_TH2jvmQte6s"
+              />
+              <path
+                fillRule="evenodd"
+                clipRule="evenodd"
+                d="M47.068,61.509c2.865,0.336,5.494-1.773,5.871-4.713
+              					c0.377-2.938-1.641-5.594-4.506-5.93L47.068,61.509z"
+                id="el_X9Q0Vuszv_O"
+              />
             </g>
           </g>
         </g>
